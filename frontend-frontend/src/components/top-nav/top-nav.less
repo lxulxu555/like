@@ -1,0 +1,25 @@
+.logo {
+  width: 120px;
+  height: 31px;
+  background: url("euraisa-logo.png");
+  background-size: 100% 100%;
+  margin: 16px 24px 16px 0;
+  float: left;
+}
+.avatar{
+  float: right;
+  top: 15px;
+}
+.message(@color){
+  float: right;
+  color: @color;
+  font-size: 20px;
+  margin-top: 22px;
+  margin-right: 20px
+}
+.HaveMessage{
+  .message(#FF0000)
+}
+.NoMessage{
+  .message(#808080)
+}
